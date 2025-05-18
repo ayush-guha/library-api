@@ -1,0 +1,10 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: jdbc:postgresql://prodhost:5432/librarydb_prod
+    username: produser
+    password: prodpassword
+server:
+  port: 80
