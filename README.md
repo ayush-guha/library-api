@@ -55,8 +55,5 @@ mvn clean install
 java -jar target/library-api-0.0.1-SNAPSHOT.jar
 ```
 
-## API Documentation
-- Swagger/OpenAPI will be available at `/swagger-ui.html` (if enabled)
-
 ## Unit Tests
 - See `src/test/java` for test scaffolding (to be added)
